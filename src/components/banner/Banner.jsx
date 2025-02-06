@@ -13,7 +13,7 @@ function Banner({ image, smallImage, alt, title1 }) {
           alt={alt}
         />
         <div className="absolute inset-0 flex justify-center items-center gap-1 md:flex-col md:items-center lg:text-center animate-fadein">
-          <h1 className="text-font1 text-6xl font-medium md:text-2xl sm:text-base sm:text-font-bg sm:font-bold sm:tracking-wide">
+          <h1 className="text-font1 text-xl font-medium md:text-3xl">
             <span>{title1}</span>
           </h1>
         </div>

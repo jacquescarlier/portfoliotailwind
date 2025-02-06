@@ -18,6 +18,14 @@
   --font-font-main: "Montserrat";
   --font-font-secondary: "Grandstander";
 
+  /*Breakpoint*/
+/*
+  --breakpoint-*: initial;
+  --breakpoint-phone: 620px 
+  --breakpoint-tablet: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1240px;
+*/
   /*animation*/
 
   /*texte rotation */
@@ -32,20 +40,33 @@
       transform: rotateX(360deg);
     }
   }
-/* fadein */
-  
-    --animate-fadein: fadein 1500ms;
-  
+
+  /* fadein */
+
+  --animate-fadein: fadein 1500ms;
+
   @keyframes fadein {
-    0%, 14%, 28%, 42%, 60%, 85% {
+
+    0%,
+    14%,
+    28%,
+    42%,
+    60%,
+    85% {
       opacity: 0;
     }
-   7%, 35% {
+
+    7%,
+    35% {
       opacity: 0.1;
     }
-    21%, 50%, 70% {
+
+    21%,
+    50%,
+    70% {
       opacity: 0.2;
     }
+
     100% {
       opacity: 1;
     }
