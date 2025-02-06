@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  /* color */
+  --color-title-color: #3e3128;
+  --color-bg-color: #12110F;
+  --color-bg2-color: #1c1816;
+  --color-font-color: #dbb954;
+  --color-font2-color: #f2e1ca;
+  --color-border-color: #7c5f46;
+  --color-neutral-color: #eeeeec;
+  --color-jaune-dor: #ac4000;
+  --color-h2: #ddd5d1;
+  --color-fond: #ada9a8;
+  --color-font1: orangered;
+
+  /* font */
+  --font-font-main: "Montserrat";
+  --font-font-secondary: "Grandstander";
+
+}
