@@ -18,4 +18,20 @@
   --font-font-main: "Montserrat";
   --font-font-secondary: "Grandstander";
 
+  /*animation*/
+  --animate-textRotation: textRotation 1s ease-in-out 3;
+
+  /* text rotation */
+  @keyframes textRotation {
+    0% {
+      transform: rotateX(0deg);
+    }
+
+    100% {
+      transform: rotateX(360deg);
+    }
+  }
+
 }
+
+/* In your custom CSS file or inside tailwind.css */

@@ -1,4 +1,4 @@
-# React + Vite + Tailwind
+# React 18.3.1 + Vite 6.0.5 + Tailwind 4.0.1
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

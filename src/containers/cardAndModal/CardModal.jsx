@@ -21,10 +21,10 @@ function CardModal({ projects }) {
   const closeModal = () => {
     setModalOpen(false);
   };
-
+ 
   return (
     <div className="justify-center w-screen h-full px-10 py-0">
-      <h2 className="text-center text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em] animate-bounce">
+      <h2 className="text-center text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em]  animate-textRotation ">
         Projects
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-[25px] box-border p-[20px_1em_50px_1em] m-0 mb-[50px]" id="project">
