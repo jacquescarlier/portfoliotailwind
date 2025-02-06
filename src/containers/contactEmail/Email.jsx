@@ -22,7 +22,7 @@ export default function Email() {
 
     return (
         <div className="contactForm w-[80%] mx-auto" id="contact">
-            <h2 className=" text-center text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em] ">Contact Form</h2>
+            <h2 className=" text-center text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em] hover:animate-textRotation hover:text-black">Contact Form</h2>
             <form className='max-w-4xl mx-auto text-center p-4 sm:p-2' ref={form} onSubmit={sendEmail}>
                 <div className="flex  justify-between gap-4">
                     <div className="w-full sm:w-1/2">

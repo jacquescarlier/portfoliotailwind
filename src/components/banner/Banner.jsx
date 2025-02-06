@@ -12,7 +12,7 @@ function Banner({ image, smallImage, alt, title1 }) {
           className="w-full h-56 object-cover rounded-xl filter grayscale md:h-44 sm:block"
           alt={alt}
         />
-        <div className="absolute inset-0 flex justify-center items-center gap-1 md:flex-col md:items-center lg:text-center">
+        <div className="absolute inset-0 flex justify-center items-center gap-1 md:flex-col md:items-center lg:text-center animate-fadein">
           <h1 className="text-font1 text-6xl font-medium md:text-2xl sm:text-base sm:text-font-bg sm:font-bold sm:tracking-wide">
             <span>{title1}</span>
           </h1>

@@ -21,13 +21,16 @@ function CardModal({ projects }) {
   const closeModal = () => {
     setModalOpen(false);
   };
- 
+
   return (
     <div className="justify-center w-screen h-full px-10 py-0">
       <h2 className="text-center text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em]  animate-textRotation ">
         Projects
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-[25px] box-border p-[20px_1em_50px_1em] m-0 mb-[50px]" id="project">
+      <div
+        className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-[25px] box-border p-[20px_1em_50px_1em] m-0 mb-[50px]"
+        id="project"
+      >
         {projects.map((project) => (
           <div
             key={project.id}
@@ -38,7 +41,7 @@ function CardModal({ projects }) {
             <img
               src={project.cover}
               alt={project.alt}
-              className="rounded-[20px] object-cover object-top w-full h-full opacity-[0.9] transition-all duration-500 ease-in-out"
+              className="rounded-[20px] object-cover object-top w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-115"
             />
             <h3 className="absolute bottom-[5%] left-[3%] rounded-[0.5em] p-[0.2em_0.7em] bg-font2-color text-title-color font-[font-secondary] text-[1.3em] font-bold italic flex items-end">
               {project.title}
@@ -46,6 +49,7 @@ function CardModal({ projects }) {
           </div>
         ))}
       </div>
+
 
       <Modal
         ref={modalRef}
