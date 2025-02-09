@@ -24,7 +24,7 @@ function CardModal({ projects }) {
 
   return (
     <div className="justify-center w-screen h-full px-10 py-0">
-      <h2 className="text-center text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em]  animate-textRotation ">
+      <h2 className="text-center lg:text-4xl md:text-xl sm:text-[12px]  text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em]  animate-textRotation ">
         Projects
       </h2>
       <div
