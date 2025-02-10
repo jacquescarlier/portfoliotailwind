@@ -7,6 +7,7 @@ import PortfolioDetail from "../../components/portfolioDetail/PortfolioDetail.js
 import PortfolioDropdown from "../../components/portfolioDropdown/PortfolioDropdown.jsx";
 import "./custom-animation.css";
 import PropTypes from "prop-types";
+import 'react-responsive-modal/styles.css';
 
 function CardModal({ projects }) {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -63,6 +64,7 @@ function CardModal({ projects }) {
           overlayAnimationOut: "customLeaveOverlayAnimation",
           modalAnimationIn: "customEnterModalAnimation",
           modalAnimationOut: "customLeaveModalAnimation",
+          modal: "w-screen h-full lg:w-[80%] md:w-[80%] sm:w-|60%]",
         }}
         animationDuration={800}
       >
