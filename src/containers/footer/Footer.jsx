@@ -77,7 +77,6 @@ function Footer() {
           modalAnimationOut: 'customLeaveModalAnimation',
           container: "w-full h-screen",
         }}
-
         animationDuration={1000}
       >
         <div className="w-full h-full flex items-center justify-center">
