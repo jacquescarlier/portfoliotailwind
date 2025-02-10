@@ -14,7 +14,7 @@ function Banner({ image, smallImage, alt, title1 }) {
           alt={alt}
         />
         <div className="absolute inset-0 flex flex-nowrap justify-center items-center  md:flex-col md:items-center lg:text-center animate-fadein">
-          <h1 className="text-font1 text-[13px] sm:text-[20px] md:text-2xl lg:text-3xl font-medium">
+          <h1 className="text-font1 text-[13px] lg:p-0 md:p-0 sm:text-[20px] sm: pl-5 md:text-2xl lg:text-3xl font-medium">
           {title1}
           </h1>
         </div>
