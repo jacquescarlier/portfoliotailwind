@@ -26,7 +26,7 @@ const Accordion = ({ title, content }) => {
   return (
     <div className="accordion-item">
       <div className="accordion-title z-2 h-[52px] flex items-center justify-between bg-font2-color rounded-[10px] border-l-[1px] border-[#FFD700] text-bg-color cursor-pointer text-[1.5em] font-bold tracking-[0.35em] p-[10px] shadow-[10px_-2px_5px_font-color]" onClick={handleClick}>
-        <div className="dropdownTitle">{title}</div>
+        <div className="dropdownTitle text-gray-600 text-base sm:text-sm">{title}</div>
         <div className="arrow w-[25px] h-[25px] rounded-full transition-transform duration-200 ease-in-out">
           {" "}
           <img
