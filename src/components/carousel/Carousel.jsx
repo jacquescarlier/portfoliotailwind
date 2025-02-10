@@ -24,16 +24,13 @@ const Carousel = ({ pictures, title, alt }) => {
       </section>
     );
   }
-
   return (
     <section className="relative flex flex-col justify-center items-center w-full h-64 p-3 md:h-96">
-      <img src={currentPicture} alt={title} className="w-full h-full object-scale-down rounded-lg transition-transform transform hover:scale-200" />
-
+      <img src={currentPicture} alt={title} className="w-full h-full object-scale-down rounded-lg" />
       {/* Section pour le compteur */}
       <div className="mt-2 text-black px-3 py-1 bg-transparent rounded-md text-sm md:text-base">
         {pictureCounter}
       </div>
-
       {/* Boutons de navigation */}
       <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-between items-center">
         <button onClick={previousPicture} className="p-2 bg-white bg-opacity-50 rounded-full shadow-md hover:bg-opacity-75">
@@ -44,8 +41,6 @@ const Carousel = ({ pictures, title, alt }) => {
         </button>
       </div>
     </section>
-
-
   );
 };
 
