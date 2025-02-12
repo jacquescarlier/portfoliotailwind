@@ -18,3 +18,5 @@ modidication du précédent portfolio qui utilisait sass.
     "react-responsive-modal": "^6.4.2",
     "react-tooltip": "^5.28.0",
 
+
+récupération du repo
