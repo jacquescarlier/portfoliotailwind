@@ -63,7 +63,75 @@
       opacity: 1;
     }
   }
+/* modal animation */
 
+--animate-customEnterOverlayAnimation: customEnterOverlayAnimation 500ms;
+
+@keyframes customEnterOverlayAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+--animate-customLeaveOverlayAnimation: customLeaveOverlayAnimation 500ms;
+
+@keyframes customLeaveOverlayAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+--animate-customEnterModalAnimation: customEnterModalAnimation 500ms;
+
+@keyframes customEnterModalAnimation {
+  0% {
+    transform: scale(0.2);
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: scale(1);
+    transform: rotate(1turn);
+  }
+}
+
+--animate-customLeaveModalAnimation: customLeaveModalAnimation 500ms;
+
+@keyframes customLeaveModalAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+
+--animate-customEnterModalRotate: customEnterModalRotate 500ms;
+
+@keyframes customEnterModalRotate {
+ 0%{
+  transform: rotate(180deg);
+ } 
+ 100% {
+  transform: rotate(1turn);
+ }
+}
+
+--animate-customLeaveModalRotate: customLeaveModalRotate 500ms;
+
+@keyframes customLeaveModalRotate {
+0%{
+  transform: rotate(0deg);
+ } 
+ 100% {
+  transform: rotate(-360deg);
+ }
+}
 }
 
 /* In your custom CSS file or inside tailwind.css */

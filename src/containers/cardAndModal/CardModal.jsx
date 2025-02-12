@@ -5,7 +5,6 @@ import Carousel from "../../components/carousel/Carousel.jsx";
 import "react-responsive-modal/styles.css";
 import PortfolioDetail from "../../components/portfolioDetail/PortfolioDetail.jsx";
 import PortfolioDropdown from "../../components/portfolioDropdown/PortfolioDropdown.jsx";
-import "./custom-animation.css";
 import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
 
@@ -63,7 +62,7 @@ function CardModal({ projects }) {
           overlayAnimationOut: "customLeaveOverlayAnimation",
           modalAnimationIn: "customEnterModalAnimation",
           modalAnimationOut: "customLeaveModalAnimation",
-          modalContainer: "w-screen h-full p-0 m-0 mx-auto lg:w-[80%] md:w-[95%] sm:w-|60%]",
+          modalContainer: "w-screen h-full",
         }}
         animationDuration={800}
         center
