@@ -58,15 +58,15 @@ function CardModal({ projects }) {
         onClose={closeModal}
         closeIcon={" "}
         initialFocusRef={modalRef}
-        center
         classNames={{
           overlayAnimationIn: "customEnterOverlayAnimation",
           overlayAnimationOut: "customLeaveOverlayAnimation",
           modalAnimationIn: "customEnterModalAnimation",
           modalAnimationOut: "customLeaveModalAnimation",
-          modal: "w-screen h-full lg:w-[80%] md:w-[80%] sm:w-|60%]",
+          modalContainer: "w-screen h-full p-0 m-0 mx-auto lg:w-[80%] md:w-[95%] sm:w-|60%]",
         }}
         animationDuration={800}
+        center
       >
         {selectedItem && (
           <div className=" bg-[#dcdcdc] p-1 rounded-lg">

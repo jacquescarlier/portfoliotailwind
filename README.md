@@ -12,3 +12,9 @@ Currently, two official plugins are available:
 https://portfoliotailwind-iota.vercel.app/#
 
 modidication du précédent portfolio qui utilisait sass.
+
+  outils utilisés :
+    "@emailjs/browser": "^4.4.1",
+    "react-responsive-modal": "^6.4.2",
+    "react-tooltip": "^5.28.0",
+
