@@ -1,6 +1,5 @@
 const Curiculum = () => {
 
-  
   return (
     <div className="w-screen h-screen">
       <div className="h-full"> 
@@ -9,7 +8,6 @@ const Curiculum = () => {
           type="application/pdf"
           className="m-0 p-0 w-[100%] h-full"
         >
-         
         </object>
       </div>
     </div>
