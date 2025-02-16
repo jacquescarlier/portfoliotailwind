@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Arrow from "../../pictures/logo/arrow-down.webp";
 import PropTypes from 'prop-types';
 
 const Accordion = ({ title, content }) => {
@@ -29,11 +28,7 @@ const Accordion = ({ title, content }) => {
         <div className="dropdownTitle text-gray-600 text-base sm:text-sm">{title}</div>
         <div className="arrow w-[25px] h-[25px] rounded-full transition-transform duration-200 ease-in-out">
           {" "}
-          <img
-            src={Arrow}
-            alt="Flèche pour afficher le description"
-            className={isActive ? "rotated" : "arrow"}
-          />
+          
         </div>
       </div>
       <div className={isActive ? "accordion-content-active block z-2 bg-[#e3e3e3] rounded-b-[10px] border-l-[1px] border-b-[1px] border-[#FFD700] text-bg-color font-main text-[22px] font-bold leading-[25px] p-[20px_20px_5px_20px] relative top-[-10px] shadow-[10px_5px_5px_font-color]" : "accordion-content"}>
