@@ -2,6 +2,7 @@ import { Modal } from 'react-responsive-modal';
 import Curiculum from "../curiculumModal/CvPdf";
 import { useState, useRef } from "react";
 import BackLinks from "../../components/backLinks/BackLinks";
+
 function Footer() {
 
   const [modalOpen, setModalOpen] = useState(false);
@@ -56,7 +57,6 @@ function Footer() {
             </a>
           </li>
         </ul>
-
         <div className="text-center text-[1.3em] my-[1em_0_1.5em_0] ">
           <a href="#" className="text-decoration-none bg-font1 text-black font-extrabold border-jaune-dor border-[5px] rounded-[30px] py-1 px-3">
             Back to Top
