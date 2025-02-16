@@ -20,3 +20,5 @@ modidication du précédent portfolio qui utilisait sass.
 
 
 récupération du repo
+
+mise en page à 375px mini
