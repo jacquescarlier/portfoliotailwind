@@ -4,7 +4,7 @@ import { useState } from "react";
 import Carousel from "../../components/carousel/Carousel.jsx";
 import "react-responsive-modal/styles.css";
 import PortfolioDetail from "../../components/portfolioDetail/PortfolioDetail.jsx";
-import PortfolioDropdown from "../../components/portfolioDropdown/PortfolioDropdown.jsx";
+import PortfolioCard from "../../components/portfolioCard/PortfolioCard.jsx";
 import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
 
@@ -75,7 +75,7 @@ function CardModal({ projects }) {
               title={selectedItem.title}
               tags={selectedItem.tags}
             />
-            <PortfolioDropdown
+            <PortfolioCard
               description={selectedItem.description}
               langages={selectedItem.logos}
             />
