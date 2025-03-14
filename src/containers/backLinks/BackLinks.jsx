@@ -1,4 +1,4 @@
-import TooltipLink from '../../components/linkBacklink/TooltipLink';
+import TooltipLink from '../../components/tooltipLink/TooltipLink';
 import { dataBacklink } from '../../datas/data';
 
 const BackLinks = () => {

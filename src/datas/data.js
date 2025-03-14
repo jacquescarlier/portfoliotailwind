@@ -186,7 +186,31 @@ export const projects = [
 		"tags": [
 			["https://github.com/jacquescarlier/ab11"]
 		]
-	} /*,
+	} ,
+	{
+		"id": "c67ab4499",
+		"title": "react-accordion10",
+		"cover": "../react-accordion10/accordion0.png",
+		"alt": "Package React-accordion10",
+		"pictures": [
+			"../react-accordion10/accordion1.png",
+			"../react-accordion10/accordion.png",
+			"../react-accordion10/accordion0.png"
+		],
+		"description": "Crée un package npm, composant accordion sous React et Tailwind avec classes par défaut",
+		"logos": [
+			"../langages/react-logopf.webp",
+			"../langages/tailwind.jpeg"
+		],
+		"learning": [
+			"React",
+			"Npm",
+			"Tailwind"
+		],
+		"tags": [
+			["https://www.npmjs.com/package/react-accordion10"]
+		]
+	},
 	{
 		"id": "c67ab4444",
 		"title": "Argent Bank",
@@ -214,5 +238,5 @@ export const projects = [
 		"tags": [
 			["https://github.com/jacquescarlier/ab11"]
 		]
-	}*/
+	}
 ]

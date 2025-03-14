@@ -23,7 +23,7 @@ function CardModal({ projects }) {
   };
 
   return (
-    <div className="justify-center w-screen h-full px-10 py-0">
+    <div className="justify-center w-screen h-full px-10 pb-5 pt-2">
       <h2 className="text-center lg:text-4xl md:text-xl sm:text-[12px]  text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em]  hover:animate-textRotation hover:text-black">
         Projects
       </h2>
@@ -34,14 +34,14 @@ function CardModal({ projects }) {
         {projects.map((project) => (
           <div
             key={project.id}
-            className="w-full h-[340px] relative rounded-[20px] cursor-pointer"
+            className="w-full h-[340px] relative cursor-pointer"
             onClick={() => openModal(project.id)}
             aria-label={project.alt}
           >
             <img
               src={project.cover}
               alt={project.alt}
-              className="rounded-[20px] object-cover object-top pt-5 w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-115"
+              className="rounded-[20px] object-fit object-top mt-5 w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-115"
             />
             <h3 className="absolute bottom-[5%] left-[3%] rounded-[0.5em] p-[0.2em_0.7em] bg-font2-color text-title-color font-[font-secondary] text-[1.3em] font-bold italic flex items-end">
               {project.title}

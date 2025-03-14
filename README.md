@@ -22,3 +22,5 @@ modidication du précédent portfolio qui utilisait sass.
 récupération du repo
 
 mise en page à 375px mini
+
+Version 2.0 avec suppression des dropdown remplacer par des cartes et ajout d'un composant tooltip
