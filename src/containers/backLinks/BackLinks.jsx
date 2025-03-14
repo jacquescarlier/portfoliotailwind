@@ -1,11 +1,7 @@
 import TooltipLink from '../../components/linkBacklink/TooltipLink';
 import { dataBacklink } from '../../datas/data';
 
-
 const BackLinks = () => {
-  // Debugging: Log the dataBacklink array to the console
-  console.log('dataBacklink:', dataBacklink);
-
   return (
     <ul className="backlinks flex gap-8 bg-font2-color text-xl p-1 sm:p-2 rounded-xl mb-20">
       {dataBacklink.map((item) => {

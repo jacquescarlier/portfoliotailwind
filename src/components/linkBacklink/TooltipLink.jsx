@@ -11,8 +11,7 @@ export default function TooltipLink({
   children
 }) {
   // Debugging: Log the props to the console
-  console.log('TooltipLink props:', { id, className, link, target, rel, children });
-
+  //console.log('TooltipLink props:', { id, className, link, target, rel, children });
   return (
     <>
       <a

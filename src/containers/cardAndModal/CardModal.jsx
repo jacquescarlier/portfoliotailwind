@@ -49,8 +49,6 @@ function CardModal({ projects }) {
           </div>
         ))}
       </div>
-
-
       <Modal
         ref={modalRef}
         open={modalOpen}
@@ -79,7 +77,7 @@ function CardModal({ projects }) {
               description={selectedItem.description}
               langages={selectedItem.logos}
             />
-            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font-color text-black shadow-lg shadow-amber-400/60" onClick={closeModal}>
+            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] bg-font-color text-black shadow-lg shadow-amber-400/60" onClick={closeModal}>
               Fermer
             </button>
           </div>
