@@ -8,7 +8,7 @@ import PortfolioCard from "../../components/portfolioCard/PortfolioCard.jsx";
 import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
 
-function CardModal({ projects }) {
+function CardHome({ projects }) {
   const [selectedItem, setSelectedItem] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
   const modalRef = useRef(null);
@@ -87,7 +87,7 @@ function CardModal({ projects }) {
   );
 }
 
-CardModal.propTypes = {
+CardHome.propTypes = {
   projects: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
@@ -101,4 +101,4 @@ CardModal.propTypes = {
   ).isRequired,
 }
 
-export default CardModal;
+export default CardHome;

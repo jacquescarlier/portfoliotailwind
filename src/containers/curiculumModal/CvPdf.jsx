@@ -2,7 +2,7 @@ const Curiculum = () => {
 
   return (
     <div className="w-screen h-screen">
-      <div className="h-full"> 
+      <div className="h-full">
         <object
           data="./cv2024-1.pdf"
           type="application/pdf"

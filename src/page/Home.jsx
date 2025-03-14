@@ -8,7 +8,7 @@ import HardSkillsContainer from "../components/hardSkills/HardSkillsContainer";
 //import imageBg from "/bot.jpg"
 
 import { useEffect } from 'react';
-import CardModal from "../containers/cardAndModal/CardModal";
+import CardHome from "../containers/cardAndModal/CardHome";
 import About from '../containers/about/About';
 import Email from '../containers/contactEmail/Email';
 import Footer from '../containers/footer/Footer';
@@ -46,7 +46,7 @@ const Home = () => {
           title1="Welcome ! Hi, I'm Jacques, web integrator."
         />
         <HardSkillsContainer />
-        <CardModal projects={projects} />
+        <CardHome projects={projects} />
         <About />
         <Email />
         <Footer />

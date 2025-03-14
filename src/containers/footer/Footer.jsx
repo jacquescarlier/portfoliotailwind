@@ -76,7 +76,7 @@ function Footer() {
           overlayAnimationOut: 'customLeaveOverlayAnimation',
           modalAnimationIn: 'customEnterModalAnimation',
           modalAnimationOut: 'customLeaveModalAnimation',
-          modalContainer: "w-screen h-full p-0 m-0 mx-auto lg:w-[80%] md:w-[95%] sm:w-|60%]",
+          modalContainer: "w-screen h-full p-0 m-0 mx-auto lg:w-[90%] md:w-[95%] sm:w-|60%]",
         }}
         animationDuration={1000}
       >
