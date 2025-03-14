@@ -1,7 +1,8 @@
 import { Modal } from 'react-responsive-modal';
 import Curiculum from "../curiculumModal/CvPdf";
 import { useState, useRef } from "react";
-import BackLinks from "../../components/backLinks/BackLinks";
+import BackLinks from "../../containers/backLinks/BackLinks";
+
 
 function Footer() {
 

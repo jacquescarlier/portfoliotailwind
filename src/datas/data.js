@@ -1,4 +1,25 @@
-  export const aboutData = [
+ export const dataBacklink = [
+	{
+		id:'2001',
+		link: 'https://validator.w3.org/#validate_by_uri',
+		alt: "Validateur W3C",
+		text: "Validateur W3C"
+	},
+	{
+		id:'2010',
+		link: 'https://developer.mozilla.org/fr/',
+		alt: " MDN Doc",
+		text: " MDN Doc"
+	},
+	{
+		id:'2020',
+		link: 'https://fr.react.dev/',
+		alt: "React",
+		text: "React"
+	}
+ ] ;
+ 
+ export const aboutData = [
   {
     id: 1,
     title: "Expérience",
