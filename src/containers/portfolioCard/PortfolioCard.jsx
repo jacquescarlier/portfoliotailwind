@@ -1,6 +1,6 @@
 
 import PropTypes from 'prop-types';
-import CardModal from "../cardModal/CardModal";
+import CardModal from "../../components/cardModal/CardModal";
 
 const title = ["Description", "Langages"];
 

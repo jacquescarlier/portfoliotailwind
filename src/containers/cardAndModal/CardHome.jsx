@@ -4,7 +4,7 @@ import { useState } from "react";
 import Carousel from "../../components/carousel/Carousel.jsx";
 import "react-responsive-modal/styles.css";
 import PortfolioDetail from "../../components/portfolioDetail/PortfolioDetail.jsx";
-import PortfolioCard from "../../components/portfolioCard/PortfolioCard.jsx";
+import PortfolioCard from "../portfolioCard/PortfolioCard.jsx";
 import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
 
