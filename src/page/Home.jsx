@@ -4,11 +4,11 @@ import Header from "../containers/header/Header";
 import Banner from "../components/banner/Banner";
 import picture from "../pictures/banner_codeurL.webp";
 import smallPicture from "../pictures/banner_codeur-mobile.webp"
-import HardSkillsContainer from "../components/hardSkills/HardSkillsContainer";
+import HardSkillsContainer from "../containers/hardSkills/HardSkillsContainer";
 //import imageBg from "/bot.jpg"
 
 import { useEffect } from 'react';
-import CardHome from "../containers/cardAndModal/CardHome";
+import CardHome from "../containers/cardHome/CardHome";
 import About from '../containers/about/About';
 import Email from '../containers/contactEmail/Email';
 import Footer from '../containers/footer/Footer';

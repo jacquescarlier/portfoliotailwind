@@ -3,7 +3,7 @@ import { Modal } from "react-responsive-modal";
 import { useState } from "react";
 import Carousel from "../../components/carousel/Carousel.jsx";
 import "react-responsive-modal/styles.css";
-import PortfolioDetail from "../../components/portfolioDetail/PortfolioDetail.jsx";
+import PortfolioDetail from "../portfolioDetail/PortfolioDetail.jsx";
 import PortfolioCard from "../portfolioCard/PortfolioCard.jsx";
 import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
@@ -41,7 +41,7 @@ function CardHome({ projects }) {
             <img
               src={project.cover}
               alt={project.alt}
-              className="rounded-[20px] object-fit object-top mt-5 w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-115"
+              className="rounded-[20px] object-fit object-top mt-5 w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-105"
             />
             <h3 className="absolute bottom-[5%] left-[3%] rounded-[0.5em] p-[0.2em_0.7em] bg-font2-color text-title-color font-[font-secondary] text-[1.3em] font-bold italic flex items-end">
               {project.title}
@@ -77,7 +77,7 @@ function CardHome({ projects }) {
               description={selectedItem.description}
               langages={selectedItem.logos}
             />
-            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] bg-font-color text-black shadow-lg shadow-amber-400/60" onClick={closeModal}>
+            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] bg-font-color text-black shadow-lg shadow-gray-800/60" onClick={closeModal}>
               Fermer
             </button>
           </div>

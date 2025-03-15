@@ -1,4 +1,3 @@
-
 import { aboutData } from "../../datas/data"
 
 const About = () => {
@@ -12,7 +11,6 @@ const About = () => {
 
   );
 };
-
 export default About;
 
 

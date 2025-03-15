@@ -3,7 +3,7 @@ import { dataBacklink } from '../../datas/data';
 
 const BackLinks = () => {
   return (
-    <ul className="backlinks flex gap-8 bg-font2-color text-xl p-1 sm:p-2 rounded-xl mb-20">
+    <ul className="flex gap-8 bg-font2-color text-xl p-1 sm:p-2 rounded-xl mb-20">
       {dataBacklink.map((item) => {
         // Ensure each item has the required properties
         const { id, link, text } = item;
