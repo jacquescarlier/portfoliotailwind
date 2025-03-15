@@ -23,18 +23,18 @@ function CardHome({ projects }) {
   };
 
   return (
-    <div className="justify-center w-screen h-full px-10 pb-5 pt-2">
-      <h2 className="text-center lg:text-4xl md:text-xl sm:text-[12px]  text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em]  hover:animate-textRotation hover:text-black">
+    <div className="flex flex-col items-center w-screen h-full pb-5 pt-2">
+      <h2 className="text-center lg:text-4xl md:text-xl sm:text-[12px] text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em] hover:animate-textRotation hover:text-black">
         Projects
       </h2>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-[25px] box-border p-[20px_1em_50px_1em] m-0 mb-[50px]"
+        className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-[25px] box-border p-[20px_1em_50px_1em] m-0 mb-[50px] justify-items-center w-full max-w-[1280px]"
         id="project"
       >
         {projects.map((project) => (
           <div
             key={project.id}
-            className="w-full h-[340px] relative cursor-pointer"
+            className="max-w-[620px] w-full h-[340px] relative cursor-pointer"
             onClick={() => openModal(project.id)}
             aria-label={project.alt}
           >
@@ -83,7 +83,7 @@ function CardHome({ projects }) {
           </div>
         )}
       </Modal>
-    </div>
+    </div >
   );
 }
 
