@@ -13,7 +13,7 @@ const PortfolioDetail = ({ project, title, tags }) => {
                 href={tags}
                 target="_blank"
                 rel="noopener"
-                className="inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font2-color text-black shadow-lg shadow-amber-400/60  transition-all hover:opacity-80"
+                className="inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font2-color text-black shadow-lg shadow-sky-800/60  transition-all hover:opacity-80"
               >
                 GitHub
               </a>
@@ -23,7 +23,7 @@ const PortfolioDetail = ({ project, title, tags }) => {
                   href={project}
                   target="_blank"
                   rel="noopener"
-                  className="inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font2-color text-black shadow-lg shadow-amber-400/60 transition-all hover:opacity-80"
+                  className="inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font2-color text-black shadow-lg shadow-sky-800/60 transition-all hover:opacity-80"
                 >
                   Site
                 </a>
@@ -31,7 +31,7 @@ const PortfolioDetail = ({ project, title, tags }) => {
                   href={tags}
                   target="_blank"
                   rel="noopener"
-                  className="inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font2-color text-black shadow-lg shadow-amber-400/60  transition-all hover:opacity-80"
+                  className="inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 border-[#614b3a] bg-font2-color text-black shadow-lg shadow-sky-800/60  transition-all hover:opacity-80"
                 >
                   GitHub
                 </a>

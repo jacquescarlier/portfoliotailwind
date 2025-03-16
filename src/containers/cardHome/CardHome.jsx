@@ -80,7 +80,7 @@ function CardHome({ projects }) {
               description={selectedItem.description}
               langages={selectedItem.logos}
             />
-            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] cursor-pointer bg-font-color text-black shadow-lg shadow-gray-800/60" onClick={closeModal}>
+            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] cursor-pointer bg-font2-color text-black shadow-lg shadow-zinc-900/60  transition-all hover:opacity-80" onClick={closeModal}>
               Fermer
             </button>
           </div>
