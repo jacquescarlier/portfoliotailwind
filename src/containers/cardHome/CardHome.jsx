@@ -69,10 +69,7 @@ function CardHome({ projects }) {
       >
         {selectedItem && (
           <div className=" bg-[#dcdcdc] p-1 rounded-lg">
-            <Carousel10 arrowLeft={arrowLeft} arrowRight={arrowRight} pictures={selectedItem.pictures} titles={selectedItem.title} alt={selectedItem.title}
-            classes={{
-              title: "hidden ..."
-            }}
+            <Carousel10 arrowLeft={arrowLeft} arrowRight={arrowRight} pictures={selectedItem.pictures}
             />
             <PortfolioDetail
               project={selectedItem.project}
