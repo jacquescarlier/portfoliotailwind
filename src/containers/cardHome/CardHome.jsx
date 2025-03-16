@@ -8,7 +8,7 @@ import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
 import arrowRight from "../../pictures/logo/red_arrow_right1.png";
 import arrowLeft from "../../pictures/logo/red_arrow_left1.png";
-import Carousel10 from "npmcarousel110"
+import Carousel from "../../components/carousel/carousel.jsx";
 
 function CardHome({ projects }) {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -69,7 +69,7 @@ function CardHome({ projects }) {
       >
         {selectedItem && (
           <div className=" bg-[#dcdcdc] p-1 rounded-lg">
-            <Carousel10 arrowLeft={arrowLeft} arrowRight={arrowRight} pictures={selectedItem.pictures}
+            <Carousel arrowLeft={arrowLeft} arrowRight={arrowRight} pictures={selectedItem.pictures}
             />
             <PortfolioDetail
               project={selectedItem.project}
