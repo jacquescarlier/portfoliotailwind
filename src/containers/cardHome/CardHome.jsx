@@ -1,12 +1,14 @@
 import { useRef } from "react";
 import { Modal } from "react-responsive-modal";
 import { useState } from "react";
-import Carousel from "../../components/carousel/Carousel.jsx";
 import "react-responsive-modal/styles.css";
 import PortfolioDetail from "../portfolioDetail/PortfolioDetail.jsx";
 import PortfolioCard from "../portfolioCard/PortfolioCard.jsx";
 import PropTypes from "prop-types";
 import 'react-responsive-modal/styles.css';
+import arrowRight from "../../pictures/logo/red_arrow_right1.png";
+import arrowLeft from "../../pictures/logo/red_arrow_left1.png";
+import Carousel10 from "npmcarousel110"
 
 function CardHome({ projects }) {
   const [selectedItem, setSelectedItem] = useState(null);
@@ -67,7 +69,11 @@ function CardHome({ projects }) {
       >
         {selectedItem && (
           <div className=" bg-[#dcdcdc] p-1 rounded-lg">
-            <Carousel pictures={selectedItem.pictures} title={selectedItem.title} />
+            <Carousel10 arrowLeft={arrowLeft} arrowRight={arrowRight} pictures={selectedItem.pictures} titles={selectedItem.title} alt={selectedItem.title}
+            classes={{
+              title: "hidden ..."
+            }}
+            />
             <PortfolioDetail
               project={selectedItem.project}
               title={selectedItem.title}
@@ -86,7 +92,7 @@ function CardHome({ projects }) {
     </div >
   );
 }
-
+//pictures, titles, alt, arrowLeft, arrowRight,
 CardHome.propTypes = {
   projects: PropTypes.arrayOf(
     PropTypes.shape({
