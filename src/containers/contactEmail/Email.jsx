@@ -2,9 +2,7 @@ import { useRef } from 'react';
 import emailjs from '@emailjs/browser'
 import InputForm from '../../components/input/InputForm';
 
-
 export default function Email() {
-
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();

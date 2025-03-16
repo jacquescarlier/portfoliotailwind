@@ -3,9 +3,7 @@ import Curiculum from "../curiculumModal/CvPdf";
 import { useState, useRef } from "react";
 import BackLinks from "../../containers/backLinks/BackLinks";
 
-
 function Footer() {
-
   const [modalOpen, setModalOpen] = useState(false);
   const modalRef = useRef(null);
 

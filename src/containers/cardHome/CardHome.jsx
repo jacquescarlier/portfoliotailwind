@@ -89,7 +89,7 @@ function CardHome({ projects }) {
     </div >
   );
 }
-//pictures, titles, alt, arrowLeft, arrowRight,
+
 CardHome.propTypes = {
   projects: PropTypes.arrayOf(
     PropTypes.shape({
