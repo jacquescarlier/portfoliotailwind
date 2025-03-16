@@ -30,7 +30,7 @@ function CardHome({ projects }) {
         Projects
       </h2>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 gap-8 rounded-[25px] box-border p-[20px_1em_50px_1em] m-0 mb-[50px] justify-items-center w-full max-w-[1280px]"
+        className="grid grid-cols-1 md:grid-cols-2 gap-[5%] rounded-[25px] box-border p-[20px_2em_50px_2em] m-0 mb-[50px] justify-items-center w-full max-w-[1280px]"
         id="project"
       >
         {projects.map((project) => (
@@ -80,7 +80,7 @@ function CardHome({ projects }) {
               description={selectedItem.description}
               langages={selectedItem.logos}
             />
-            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] bg-font-color text-black shadow-lg shadow-gray-800/60" onClick={closeModal}>
+            <button className="closeModal inline-block px-6 py-3 text-1.5em font-bold rounded-[20px] border-2 mb-5 ml-10 border-[#614b3a] cursor-pointer bg-font-color text-black shadow-lg shadow-gray-800/60" onClick={closeModal}>
               Fermer
             </button>
           </div>

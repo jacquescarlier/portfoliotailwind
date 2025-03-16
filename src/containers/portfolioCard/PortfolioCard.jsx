@@ -14,7 +14,7 @@ const PortfolioCard = ({ description, langages }) => {
           content1={description}
           classes={{
             cardStyle1: ' w-full mx-auto mt-8 bg-gray-200 rounded-b-md rounded-t-[10px] border-l-[1px] border-b-[1px] border-[#FFD700] rounded-t-md ',
-            contentStyle1: "p-5 text-gray-600 text-base cursor-pointer sm:text-sm"
+            contentStyle1: "p-5 text-gray-600 text-base sm:text-sm"
           }}
         />
       </div>

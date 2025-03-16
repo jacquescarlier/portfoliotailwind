@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const defaultClasses = {
     cardStyle1: ' w-full mx-auto mt-8 bg-gray-200 border-l-[1px] border-b-[1px] border-[#FFD700] rounded-b-md rounded-t-[10px] rounded-t-md',
-    titleStyle1: "flex justify-center items-center  p-4  bg-font2-color rounded-t-[10px] text-bg-color cursor-pointer text-[1em] font-bold tracking-[0.35em] p-[10px] rounded-t-md",
+    titleStyle1: "flex justify-center items-center  p-4  bg-font2-color rounded-t-[10px] text-bg-color text-[1em] font-bold tracking-[0.35em] p-[10px] rounded-t-md",
     contentStyle1: "flex justify-around  w-full text-base sm:text-sm ",
 };
 

@@ -9,7 +9,7 @@ const defaultClasses = {
   counter: "mt-2 text-black px-3 py-1 bg-transparent rounded-md text-sm md:text-base",
   navigation: "absolute top-0 left-0 right-0 bottom-0 flex justify-between items-center",
   navButton: "p-2 bg-white bg-opacity-50 rounded-full shadow-md hover:bg-opacity-75 ",
-  navIcon: "w-6 h-6 md:w-8 md:h-8"
+  navIcon: "w-6 h-6 md:w-8 md:h-8 cursor-pointer"
 };
 
 const Carousel = ({ pictures, arrowLeft, arrowRight, classes = {} }) => {

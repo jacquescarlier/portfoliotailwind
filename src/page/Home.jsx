@@ -31,7 +31,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="w-screen">
+    
       <div
         className=" bg-[#BFC2C9] flex-col justify-center px-0 mx-auto w-screen h-full bg-cover bg-repeat bg-fixed"
         style={{ backgroundImage: `url(${imageBg})` }}
@@ -49,7 +49,7 @@ const Home = () => {
         <Email />
         <Footer />
       </div>
-    </div>
+   
   );
 };
 
