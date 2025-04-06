@@ -186,7 +186,7 @@ export const projects = [
 		"tags": [
 			["https://github.com/jacquescarlier/ab11"]
 		]
-	} ,
+	} , /*
 	{
 		"id": "c67ab4499",
 		"title": "react-accordion10",
@@ -238,5 +238,5 @@ export const projects = [
 		"tags": [
 			["https://github.com/jacquescarlier/ab11"]
 		]
-	}
+	}*/
 ]

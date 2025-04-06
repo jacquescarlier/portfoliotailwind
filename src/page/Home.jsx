@@ -31,25 +31,25 @@ const Home = () => {
   }, []);
 
   return (
-    
-      <div
-        className=" bg-[#BFC2C9] flex-col justify-center px-0 mx-auto w-screen h-full bg-cover bg-repeat bg-fixed"
-        style={{ backgroundImage: `url(${imageBg})` }}
-      >
-        <Header />
-        <Banner
-          image={picture}
-          smallImage={smallPicture}
-          alt="photo écran de code"
-          title1="Welcome ! Hi, I'm Jacques, web integrator."
-        />
-        <HardSkillsContainer />
-        <CardHome projects={projects} />
-        <About />
-        <Email />
-        <Footer />
-      </div>
-   
+
+    <div
+      className=" bg-[#BFC2C9] flex-col justify-center px-0 mx-auto w-screen h-full bg-cover bg-repeat bg-fixed"
+      style={{ backgroundImage: `url(${imageBg})` }}
+    >
+      <Header />
+      <Banner
+        image={picture}
+        smallImage={smallPicture}
+        alt="photo écran de code"
+        title1="Welcome ! Hi, I'm Jacques, web integrator."
+      />
+      <HardSkillsContainer />
+      <CardHome projects={projects} />
+      <About />
+      <Email />
+      <Footer />
+    </div>
+
   );
 };
 
