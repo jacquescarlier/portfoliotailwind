@@ -25,8 +25,8 @@ function CardHome({ projects }) {
   };
 
   return (
-    <div className="flex flex-col items-center w-screen h-full pb-5 pt-2 mb-0 md:mb-0 max-sm:mb-30 sm:mb-40 min-sm:mb-100">
-      <h2 className="text-center lg:text-4xl md:text-xl sm:text-[12px] text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em] hover:animate-textRotation hover:text-black">
+    <div className="flex flex-col items-center w-screen h-full pb-5 pt-2 mb-0 md:mb-0 max-sm:mb-30 min-sm:mb-40">
+      <h2 className="text-center text-2xl lg:text-4xl text-font1 pb-5 pt-2 font-font-secondary tracking-[0.5em] hover:animate-textRotation hover:text-black">
         Projects
       </h2>
       <div
