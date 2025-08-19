@@ -43,9 +43,9 @@ function CardHome({ projects }) {
             <img
               src={project.cover}
               alt={project.alt}
-              className="rounded-[20px] object-fit object-top mt-5 w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-105"
+              className="rounded-[20px] object-fit object-top mt-5 w-full h-full opacity-[0.9] transition-transform duration-500 ease-in-out transform hover:scale-110 hover:brightness-50"
             />
-            <h3 className="absolute bottom-[5%] left-[3%] rounded-[0.5em] p-[0.2em_0.7em] bg-font2-color text-title-color font-[font-secondary] text-[1.3em] font-bold italic flex items-end">
+            <h3 className="absolute bottom-[5%] left-[3%] rounded-[0.5em] p-[0.2em_0.7em] bg-font2-color text-title-color font-[font-secondary] text-[1.3em] font-bold italic flex items-end hover:animate-textRotation ">
               {project.title}
             </h3>
           </div>
