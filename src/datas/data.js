@@ -30,11 +30,11 @@
     title: "Expérience",
     content: `Porté par une curiosité constante et une envie d’apprendre, j’ai saisi l’opportunité d’une reconversion professionnelle pour me tourner vers un domaine qui me passionne depuis longtemps : le développement web.`,
   },
-  {
+ {
     id: 3,
     title: "Expérience",
-    c
-
+    content: `Aujourd’hui, je suis pleinement engagé dans cette nouvelle voie. Ma motivation est intacte : apprendre de nouveaux frameworks, maîtriser de nouveaux langages et rester en veille constante sur les technologies émergentes. Prêt à relever de nouveaux défis, j’aborde cette transition avec énergie, humilité et enthousiasme.`,
+  },
 ];
 
 export const imgLangages = [
@@ -249,3 +249,4 @@ export const projects = [
 	}*/
 
 ]
+
